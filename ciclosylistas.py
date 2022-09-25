@@ -22,7 +22,7 @@ while count<= n:
     factorial*= count
     count+= 1
 print(factorial)
-#Interadr ns permiete recorrer uno a uno cada elemnto
+#Interar ns permiete recorrer uno a uno cada elemnto
 #Ciclofor 
 ciudades= ['Caracas', 'Valencia', 'Margarita', 'Maracay']
 

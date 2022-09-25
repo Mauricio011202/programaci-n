@@ -7,11 +7,15 @@ if x.isnumeric():
     x= float(x)
 else:
     is_valid= False
+
+
 if y.isnumeric():
     y= float(y)
 else:
     is_valid= False
-if is_valid:
+
+
+if is_valid :
     if x== 0:
         print('Error, no se divide entre cero')
     else:

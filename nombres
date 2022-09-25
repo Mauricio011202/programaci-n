@@ -1,0 +1,6 @@
+estudiantes= ['Jesus', 'Alejandro', 'Ana']
+
+for i in range(1, len(estudiantes)): 
+    print(estudiantes)
+
+    #pop se usa para quitar un elementode una lista con su posicion
