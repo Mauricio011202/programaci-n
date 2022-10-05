@@ -9,4 +9,3 @@ for i in lista:
     if i == 'p':
         print(f'Hay una p en el punto {count}')
     count += 1
-    
