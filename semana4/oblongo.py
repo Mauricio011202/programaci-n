@@ -7,7 +7,7 @@ while aux< numero:
         ia_oblongo= True
         break
     aux+= 1
-if ia_oblongo:
+if ia_oblongo==True:
     print('El numero es oblongo')
 else:
     print('No es oblongo')
