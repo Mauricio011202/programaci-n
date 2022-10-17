@@ -1,10 +1,12 @@
 numero= int(input('Ingrese un numero entero: '))
 contador=0
-
-for i in range(1, numero+1):
+primo= False
+for i in range(2, numero):
     if numero%i== 0:
-        contador+= 1
-if contador== 2:
-        print(f'El numero {numero} es primo. ')
-else:
-        print(f'El numero {numero} no es primo. ')
+        primo=False
+    else:
+        primo=True
+
+print(primo)
+
+        
