@@ -1,6 +1,17 @@
-x=int(input("INgrese un numero"))
-while  (x!= 1 and x!=2 and x!=3 and x!=4 and x!=5):
-    x =input("Ingrese un numero valido")
+correo= input("Ingrese su correo:")
+while len(correo) > 50:
+    correo= input("Ingrese su correo:")
+while True:
+    contador= 0
+    for i in correo:
+        
+        if i== "@":
+            contador+=1
+        
+        if i == " ":
+            correo= input("Ingrese su correo:")
+            break 
 
-print(x)
-    
+
+    if contador!= 1:
+        correo= input("Ingrese su correo:")
