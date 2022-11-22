@@ -11,7 +11,7 @@ class Alcoholica(Bebida):
         self.grado_alcohol= grado_alcohol
     
     def print_info(self):
-        return f'{self.nombre} {self.grado_alcohol}'
+        return f'{self.nombre} ----------{self.grado_alcohol}% {self.precio}$'
     
 
 class NoAlcoholica(Bebida):
@@ -19,7 +19,7 @@ class NoAlcoholica(Bebida):
         super().__init__(nombre, precio)
         self.temperatura= temperatura
     def print_info(self):
-        return f'{self.nombre}{self.temperatura}'
+        return f'{self.nombre}--------------{self.temperatura}% {self.precio}$'
         
 
 
