@@ -4,4 +4,4 @@ class Cliente:
         self.edad = edad
         self.ci = ci
     def prin_info(self):
-        return f'{self.nombre}-------------{self.ci}'
+        return f'{self.nombre}-------------{self.ci}{self.edad}'
